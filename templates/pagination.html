@@ -1,0 +1,33 @@
+{# ページネーター #}
+<nav>
+<!-- Center-aligned -->
+<ul class="pagination justify-content-center" style="margin:20px 0">
+  {# ページ送りボタン(1) - 新しい投稿を表示する #}
+  {% if page.has_previous %}
+    <li class="page-item">
+      <a class="page-link" href="?page={{ page.previous_page_number }}&category_id={{category_id}}&q={{q}}"><span aria-hidden="true">&larr;</span> Newer</a>
+    </li>
+  {% else %}
+    <li class="page-item disabled">
+      <a class="page-link" href="#"><span aria-hidden="true">&larr;</span> Newer</a>
+    </li>
+  {% endif %}
+
+
+  {# ページ情報 #}
+  <li>Page {{ page.number }} of {{ page.paginator.num_pages }}.</li>
+
+
+  {# ページ送りボタン(2) - 古い投稿を表示する #}
+  {% if page.has_next %}
+    <li class="page-item">
+      <a class="page-link" href="?page={{ page.next_page_number }}&category_id={{category_id}}&q={{q}}">Older <span aria-hidden="true">&rarr;</span></a>
+    </li>
+  {% else %}
+    <li class="page-item disabled">
+      <a class="page-link" href="#">Older <span aria-hidden="true">&rarr;</span></a>
+    </li>
+  {% endif %}
+
+</ul>
+</nav>
