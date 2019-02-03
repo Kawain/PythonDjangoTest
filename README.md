@@ -53,20 +53,20 @@ django-admin startproject PythonDjangoTest
             wsgi.py
             __init__.py
 
-Visual Studio Code のパスが通っていれば以下で起動する
+Visual Studio Code のパスが通っていれば以下で起動する  
 (djangoenv) C:\Users\User名\Desktop\PythonNotes\PythonDjangoTest>code .
 
-settings.py の日本語と時間を変更
-LANGUAGE_CODE = 'ja'
-TIME_ZONE = 'Asia/Tokyo'
+settings.py の日本語と時間を変更  
+LANGUAGE_CODE = 'ja'  
+TIME_ZONE = 'Asia/Tokyo'  
 
-初期のデータベースは sqlite だが、そのまま使用
+初期のデータベースは sqlite だが、そのまま使用  
 
-開発用サーバー起動
-python manage.py runserver
+開発用サーバー起動  
+python manage.py runserver  
 
-http://127.0.0.1:8000/
-インストールは成功しました！おめでとうございます！
+http://127.0.0.1:8000/  
+インストールは成功しました！おめでとうございます！  
 
 Visual Studio Code で何度もフォーマット（Shift + Alt + F）するので autopep8 を入れておく  
 pip install autopep8
