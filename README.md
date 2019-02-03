@@ -29,13 +29,13 @@ python -m django --version
 
 現在 pip にあるものを確認してみる  
 (djangoenv) C:\Users\xxx\Desktop\PythonNotes>pip list
-  
-  Package    Version
-  ---------- -------
-  Django     2.1.5
-  pip        19.0.1
-  pytz       2018.9
-  setuptools 39.0.1
+
+    Package    Version
+    ---------- -------
+    Django     2.1.5
+    pip        19.0.1
+    pytz       2018.9
+    setuptools 39.0.1
 
 ## Django 初期設定
 
