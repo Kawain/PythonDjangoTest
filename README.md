@@ -239,7 +239,7 @@ admin.site.register(Category)
 admin.site.register(Memo)
 ```
 
-スーパーユーザーがいないので登録
+スーパーユーザーがいないので登録  
 python manage.py createsuperuser
 
 ### 開発用サーバー起動
@@ -251,5 +251,5 @@ Category
 Memo  
 が増えていることを確認  
 
-
+その他は Python Django の情報を検索すればOK
 
