@@ -61,7 +61,7 @@ STATICFILES_DIRS = (
 ```
 
 ## メイクマイグレーションズとマイグレート
-メイクマイグレーションズ
+メイクマイグレーションズ  
 python manage.py makemigrations
 
 マイグレート  
